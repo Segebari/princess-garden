@@ -1,5 +1,5 @@
 import React from 'react'
-import Aboutimg from '../assets/aboutimg.svg'
+// import Aboutimg from '../assets/aboutimg.svg'
 import food from '../assets/food.svg'
 import lounge from '../assets/lounge.svg'
 import gym from '../assets/gym.svg'
@@ -22,8 +22,8 @@ const About = () => {
             the royal experience.
           </p>
         </div>
-        <div className="w-[30%] overflow-hidden">
-          <img src={Aboutimg} alt="Lounge image" className="w-full" />
+        <div className="w-[30%] overflow-hidden bg-about">
+          {/* <img src={Aboutimg} alt="Lounge image" className="w-full" /> */}
         </div>
       </div>
       <div className="w-full min-h-[50vh] flex flex-col items-center py-20">

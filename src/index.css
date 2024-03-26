@@ -57,3 +57,10 @@ body {
   -webkit-box-shadow: -6px 11px 15px -1px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: -6px 11px 15px -1px rgba(0, 0, 0, 0.21);
 }
+
+.bg-about {
+  background-image: url(./assets/aboutimg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
