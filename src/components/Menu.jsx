@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const Menu = () => {
   return (
-    <div className="flex gap-10">
+    <div className="flex gap-10 xs:flex-col md:flex-row">
       <Link to="/">
         <div className="hover:text-secondary">Home</div>
       </Link>
@@ -20,7 +20,7 @@ const Menu = () => {
         <div className="hover:text-secondary">About Us</div>
       </Link>
 
-      <Link to='#contact'>
+      <Link to="#contact">
         <div className="hover:text-secondary">Contact</div>
       </Link>
     </div>

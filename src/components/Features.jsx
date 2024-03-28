@@ -8,7 +8,7 @@ import Bed from '../assets/bed.svg'
 const Features = () => {
   return (
     <>
-      <div className="text-black flex w-[100%] justify-center gap-10 pt-10 py-20">
+      <div className="xs:hidden text-black md:flex w-[100%] justify-center gap-10 pt-10 py-20">
         <div className="flex items-center gap-3">
           <img src={Food} alt="Utensil" className="w-[2rem]" />
           <p> Restaurant </p>

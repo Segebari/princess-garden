@@ -43,13 +43,13 @@ const Hero = () => {
         ></img>
       </div>
 
-      <div className="text-center py-10 section bg-topbg">
+      <div className="text-center  section-small-screens py-10 section bg-topbg">
         <div className="">
           <h1 className="text-5xl">
             Unforgettable stays. <br /> Unwind.
             <span className="txt text-secondary"> Reimagine.</span>
           </h1>
-          <p className="pt-5 px-[20rem]">
+          <p className="pt-5 md:px-[20rem]">
             Princess Gardens offers a haven of luxury for you to unwind and
             reimagine your expectations of comfort.
           </p>

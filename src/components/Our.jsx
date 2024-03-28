@@ -6,19 +6,22 @@ import imgiii from '../assets/img3.svg'
 const Our = () => {
   return (
     <>
-      <div className="min-h-[100vh] w-full text-black mt-32 section" id="room">
+      <div
+        className="section-small-screens min-h-[100vh] w-full text-black mt-32 section"
+        id="room"
+      >
         <div className="text-center">
           <h4 className="text-gray-400">Our Room</h4>
           <h2 className="text-4xl font-bold pt-3">
             A World Of <span className="text-primary"> Choice </span>
           </h2>
-          <p className="pt-3 px-[20rem] text-gray-400">
+          <p className="pt-3 xs:mb-10 md:0 md:px-[20rem] text-gray-400">
             A world of choice awaits. Explore our gallery below to discover the
             perfect room for your relaxation.
           </p>
         </div>
 
-        <div className="h-[100vh] flex gap-5 justify-center items-center">
+        <div className="md:h-[100vh] md:flex gap-5 justify-center items-center">
           <div className="">
             <div>
               <img src={imgi} alt="room image" />

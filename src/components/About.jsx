@@ -8,8 +8,11 @@ import bed from '../assets/bed.svg'
 const About = () => {
   return (
     <>
-      <div className="h-[30rem] w-full flex mb-10" id="about">
-        <div className="w-[70%] bg-topbg h-full px-44 flex flex-col justify-center">
+      <div
+        className=" md:h-[30rem] w-full flex mb-10 xs:mt-10 md:mt-0"
+        id="about"
+      >
+        <div className="md:w-[70%] bg-topbg h-full xs:p-10 md:px-44 flex flex-col justify-center">
           <h3 className="border-b text-4xl w-[fit-content] pb-2 mb-5 font-bold text-secondary">
             About Us
           </h3>
@@ -22,20 +25,20 @@ const About = () => {
             the royal experience.
           </p>
         </div>
-        <div className="w-[30%] overflow-hidden bg-about">
+        <div className="w-[30%] xs:hidden md:block overflow-hidden bg-about">
           {/* <img src={Aboutimg} alt="Lounge image" className="w-full" /> */}
         </div>
       </div>
-      <div className="w-full min-h-[50vh] flex flex-col items-center py-20">
-        <div className="flex gap-5">
-          <div className="w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+      <div className="section-small-screens w-full min-h-[50vh] flex flex-col items-center py-20">
+        <div className="flex items-center xs:flex-col md:flex-row gap-5">
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 md:pt-8 box-shadow">
             <img src={food} alt="food" className="h-[2rem]" />
             <h4 className="text-black font-bold text-xl py-3">Restaurant</h4>
             <p className="text-gray-400 pr-10">
               Indulge in vibrant flavors at our tasty restaurant.
             </p>
           </div>
-          <div className="w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
             <img src={bed} alt="food" className="h-[2rem]" />
             <h4 className="text-black font-bold text-xl py-3">Apartment</h4>
             <p className="text-gray-400 pr-10">
@@ -43,8 +46,8 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-5 pt-10">
-          <div className="w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+        <div className="flex  items-center xs:flex-col md:flex-row gap-5 pt-10">
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
             <img src={gym} alt="food" className="h-[2rem]" />
             <h4 className="text-black font-bold text-xl py-3">Gym</h4>
             <p className="text-gray-400 pr-10">
@@ -52,7 +55,7 @@ const About = () => {
               mind.
             </p>
           </div>
-          <div className="w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
             <img src={lounge} alt="food" className="h-[2rem]" />
             <h4 className="text-black font-bold text-xl py-3">Lounge</h4>
             <p className="text-gray-400 pr-10">

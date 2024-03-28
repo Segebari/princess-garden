@@ -22,9 +22,19 @@ body {
   min-height: 100vh;
 }
 
-.section {
-  padding-left: 6rem;
-  padding-right: 6rem;
+@media (min-width:320px) and (max-width:768px) {
+  .section-small-screens {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+
+@media (min-width:768px) {
+    .section {
+      padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 .animate {

@@ -9,6 +9,16 @@ export default {
         accent: '#b20000',
         topbg: '#121212',
       },
+
+      screens: {
+        xs: '320px',
+        sm: '576px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1334px',
+        // other theme options omitted for brevity...
+      },
     },
   },
   plugins: [],
