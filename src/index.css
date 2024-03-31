@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
 }
 
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width:1024px) {
   .section-small-screens {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -31,10 +31,10 @@ body {
 
 
 @media (min-width:768px) {
-    .section {
-      padding-left: 6rem;
-        padding-right: 6rem;
-    }
+  .section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 .animate {
@@ -73,4 +73,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+
+.why-clamp {
+  padding-right: clamp(0rem, 10vw, 15rem);
+  /* Adjust values as needed */
 }

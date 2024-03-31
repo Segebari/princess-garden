@@ -4,17 +4,17 @@ import luxury from '../assets/img3.svg'
 const Why = () => {
   return (
     <>
-      <div className=" section-small-screens min-h-[100vh]" id="service">
+      <div className=" section-small-screens lg:min-h-[100vh]" id="service">
         <h2 className="text-topbg text-4xl text-center font-bold">
           Why You Should <span className="text-primary">Stay Here</span>
         </h2>
-        <p className="text-gray-400 text-center md:px-96 pt-5">
+        <p className="text-gray-400 text-center xs:px-[auto] md:px-24 xl:px-96 pt-5">
           Seek an unforgettable escape. Immerse yourself in refined comfort and
           rediscover relaxation at Princess Gardens.
         </p>
 
-        <div className="flex xs:flex-col md:flex-row md:pl-24 w-full min-h-[40rem] mt-10">
-          <div className="md:w-1/2">
+        <div className="flex xs:flex-col lg:flex-row lg:pl-24 xs:w-[auto] xs:items-center lg:w-full min-h-[40rem] mt-10">
+          <div className="lg:w-1/2">
             <div className="text-black mb-5">
               <div className="border mb-4 rounded-[50%] w-10 h-10 bg-primary grid items-center justify-center text-white font-bold text-lg">
                 1
@@ -22,7 +22,7 @@ const Why = () => {
               <h4 className="text-lg font-bold mb-3">
                 In-Room Dining at Your Doorstep
               </h4>
-              <p className="text-sm text-gray-400 text-justify md:pr-[15rem]">
+              <p className="text-sm text-gray-400 text-justify why-clamp">
                 Our extensive menu caters to all cravings, delivered fresh and
                 delicious directly to your room. Perfect for late-night snacks,
                 romantic breakfasts, or leisurely lunches.
@@ -34,7 +34,7 @@ const Why = () => {
                 2
               </div>
               <h4 className="text-lg font-bold mb-3">Seamless Transactions</h4>
-              <p className="text-sm text-gray-400 text-justify md:pr-[15rem]">
+              <p className="text-sm text-gray-400 text-justify why-clamp">
                 Unwind in your room without a worry. Our convenient POS system
                 lets you easily settle room service and other charges from your
                 phone or in-room device. No lines, just pure convenience.
@@ -46,14 +46,15 @@ const Why = () => {
                 3
               </div>
               <h4 className="text-lg font-bold mb-3">Your Apartment Oasis</h4>
-              <p className="text-sm text-gray-400 text-justify md:pr-[15rem]">
+              <p className="text-sm text-gray-400 text-justify why-clamp">
                 Unwind and recharge in your fully-equipped apartment. Luxurious
                 furnishings and modern amenities provide the perfect haven for
                 relaxation, work, or play.
               </p>
             </div>
           </div>
-          <div className="md:w-1/2 xs:h-96 md:h-full relative md:overflow-hidden">
+
+          <div className="md:hidden lg:block md:w-1/2 xs:h-96 md:h-full relative md:overflow-hidden">
             <img
               src={luxury}
               alt="luxury image"

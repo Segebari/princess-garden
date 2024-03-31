@@ -7,7 +7,7 @@ const Our = () => {
   return (
     <>
       <div
-        className="section-small-screens min-h-[100vh] w-full text-black mt-32 section"
+        className="section-small-screens lg:min-h-[100vh] w-full text-black lg:mt-32 section"
         id="room"
       >
         <div className="text-center">
@@ -15,13 +15,13 @@ const Our = () => {
           <h2 className="text-4xl font-bold pt-3">
             A World Of <span className="text-primary"> Choice </span>
           </h2>
-          <p className="pt-3 xs:mb-10 md:0 md:px-[20rem] text-gray-400">
+          <p className="pt-3 xs:mb-10 md:0 xl:px-[20rem] text-gray-400">
             A world of choice awaits. Explore our gallery below to discover the
             perfect room for your relaxation.
           </p>
         </div>
 
-        <div className="md:h-[100vh] md:flex gap-5 justify-center items-center">
+        <div className="lg:min-h-[100vh] md:flex gap-5 justify-center items-center md:pb-10">
           <div className="">
             <div>
               <img src={imgi} alt="room image" />

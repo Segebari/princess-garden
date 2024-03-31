@@ -12,7 +12,7 @@ const About = () => {
         className=" md:h-[30rem] w-full flex mb-10 xs:mt-10 md:mt-0"
         id="about"
       >
-        <div className="md:w-[70%] bg-topbg h-full xs:p-10 md:px-44 flex flex-col justify-center">
+        <div className="md:w-[70%] bg-topbg h-full xs:p-10 lg:px-44 flex flex-col justify-center">
           <h3 className="border-b text-4xl w-[fit-content] pb-2 mb-5 font-bold text-secondary">
             About Us
           </h3>
