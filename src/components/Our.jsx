@@ -7,7 +7,7 @@ const Our = () => {
   return (
     <>
       <div
-        className="section-small-screens lg:min-h-[100vh] w-full text-black lg:mt-32 section"
+        className="section-small-screens lg:min-h-[100vh] w-full text-black xs:mt-20 lg:mt-32 section"
         id="room"
       >
         <div className="text-center">
