@@ -4,7 +4,7 @@ import luxury from '../assets/img3.svg'
 const Why = () => {
   return (
     <>
-      <div className=" section-small-screens lg:min-h-[100vh]" id="service">
+      <div className=" section-small-screens lg:min-h-[auto]" id="service">
         <h2 className="text-topbg text-4xl text-center font-bold">
           Why You Should <span className="text-primary">Stay Here</span>
         </h2>

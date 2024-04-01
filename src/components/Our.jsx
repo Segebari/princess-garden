@@ -7,7 +7,7 @@ const Our = () => {
   return (
     <>
       <div
-        className="section-small-screens lg:min-h-[100vh] w-full text-black xs:mt-20 lg:mt-32 section"
+        className="section-small-screens lg:min-h-[auto] w-full text-black xs:mt-20 lg:mt-32 section"
         id="room"
       >
         <div className="text-center">
@@ -21,7 +21,7 @@ const Our = () => {
           </p>
         </div>
 
-        <div className="lg:min-h-[100vh] md:flex gap-5 justify-center items-center md:pb-10">
+        <div className="lg:min-h-[auto] md:flex gap-5 justify-center items-center md:pb-10">
           <div className="">
             <div>
               <img src={imgi} alt="room image" />
