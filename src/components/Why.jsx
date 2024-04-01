@@ -54,7 +54,7 @@ const Why = () => {
             </div>
           </div>
 
-          <div className="md:hidden lg:block md:w-1/2 xs:h-96 md:h-full relative md:overflow-hidden">
+          <div className="md:hidden lg:block md:w-1/2 xs:h-96 md:h-full relative xl:overflow-hidden">
             <img
               src={luxury}
               alt="luxury image"
