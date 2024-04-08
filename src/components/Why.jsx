@@ -1,5 +1,5 @@
 import React from 'react'
-import luxury from '../assets/img3.svg'
+import luxury from '../assets/img3.png'
 
 const Why = () => {
   return (
