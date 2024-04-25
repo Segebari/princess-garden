@@ -22,7 +22,7 @@ const Nav = () => {
         >
           <Menu />
           <button className="border px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg xs:mt-10 lg:mt-0 xs:w-[40%] lg:w-[auto]">
-            Book Now
+            <a href="tel:+2347034842501">Book Now</a>
           </button>
         </div>
 

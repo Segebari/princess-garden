@@ -80,3 +80,22 @@ body {
   padding-right: clamp(0rem, 10vw, 15rem);
   /* Adjust values as needed */
 }
+
+.about-section {
+  opacity: 0;
+  /* Initially hidden */
+  animation: slideUp 0.5s ease-in-out forwards;
+  /* Animation properties */
+  transform: translateY(20px);
+  /* Pre-translate content upwards */
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

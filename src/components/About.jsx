@@ -4,6 +4,7 @@ import food from '../assets/food.svg'
 import lounge from '../assets/lounge.svg'
 import gym from '../assets/gym.svg'
 import bed from '../assets/bed.svg'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -24,6 +25,12 @@ const About = () => {
             church services, parties, and more at Sparklight Estate. We give you
             the royal experience.
           </p>
+
+          <Link to="/about">
+            <button className="bg-secondary px-1 py-2 mt-3 w-32 text-topbg hover:bg-topbg hover:border hover:border-secondary hover:text-secondary">
+              Read more
+            </button>
+          </Link>
         </div>
         <div className="w-[30%] xs:hidden md:block overflow-hidden bg-about">
           {/* <img src={Aboutimg} alt="Lounge image" className="w-full" /> */}
