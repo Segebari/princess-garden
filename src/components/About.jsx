@@ -1,10 +1,11 @@
 import React from 'react'
-// import Aboutimg from '../assets/aboutimg.svg'
+import { Link } from 'react-router-dom'
 import food from '../assets/food.svg'
 import lounge from '../assets/lounge.svg'
 import gym from '../assets/gym.svg'
 import bed from '../assets/bed.svg'
-import { Link } from 'react-router-dom'
+import dish from '../assets/dish.svg'
+import bills from '../assets/bills.svg'
 
 const About = () => {
   return (
@@ -67,6 +68,27 @@ const About = () => {
             <h4 className="text-black font-bold text-xl py-3">Lounge</h4>
             <p className="text-gray-400 pr-10">
               Relax and socialize in our inviting lounge.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex  items-center xs:flex-col md:flex-row gap-5 pt-10">
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+            <img src={dish} alt="food" className="h-[2rem]" />
+            <h4 className="text-black font-bold text-xl py-3">
+              Buy/Install Dishes
+            </h4>
+            <p className="text-gray-400 pr-10">
+              Dish setup for DStv, StarTimes, GOtv & CCTV. Easy install, full
+              support. Enjoy entertainment & security!
+            </p>
+          </div>
+          <div className="xs:w-full md:w-[20rem] h-[15rem] p-3 pt-8 box-shadow">
+            <img src={bills} alt="food" className="h-[2rem]" />
+            <h4 className="text-black font-bold text-xl py-3">Utilities</h4>
+            <p className="text-gray-400 pr-10">
+              POS transactions, internet devices & business center all under one
+              roof! Manage payments, connect & work.
             </p>
           </div>
         </div>

@@ -45,19 +45,22 @@ const Aboutpage = () => {
             FROM CEO'S PEN
           </h2>
           <p className="text-xl leading-loose">
-            Dear Value Customers, <br /> Business cannot grow and attain its
-            full course of establishment when value, trust and friendship are
-            not treasured. <br />
+            <span className='text-primary'>Dear Esteemed Customers</span>, <br /> Business cannot grow
+            and attain its full course of establishment when value, trust and
+            friendship are not treasured. <br />
             We at Primadas Investment Nigeria Limited, we treasure those values
             and be in business in your own interest. <br />
             If there is anything we can use to serve you better please feel free
             to contact me at{' '}
-            <a className='text-primary' href="mailto:ibruojas@yahoo.com">ibruojas@yahoo.com</a>. <br />
+            <a className="text-primary" href="mailto:ibruojas@yahoo.com">
+              ibruojas@yahoo.com
+            </a>
+            . <br />
             The confidence you impose on us can never be overlooked, we
             therefore pledge to provide more and best possible service in the
             future.
-            <br />{' '}
-            <span>
+            <br />
+            <span className="text-primary">
               Sincerely, <br />
               O.A.Ibru CEO
             </span>
