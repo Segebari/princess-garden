@@ -24,7 +24,7 @@ const Our = () => {
         </div>
 
         <div className="lg:min-h-[auto] md:flex gap-5 justify-center items-center md:pb-10">
-          <div className="">
+          <div className="flex flex-col items-center mb-5 md:block w-full">
             <div>
               <img src={imgi} alt="room image" />
               <h4 className="font-bold text-xl pt-3">Room</h4>
@@ -34,12 +34,12 @@ const Our = () => {
               <h4 className="font-bold text-xl pt-3">Room</h4>
             </div>
           </div>
-          <div>
+          <div className="mb-5">
             <img src={imgiii} alt="room image" />
             <h4 className="font-bold text-xl pt-3">Oasis Lawn</h4>
           </div>
 
-          <div>
+          <div className="flex flex-col items-center mb-5 md:block w-full">
             <div>
               <img src={imgiv} alt="room image" />
               <h4 className="font-bold text-xl pt-3">Gym</h4>

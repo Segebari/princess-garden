@@ -43,7 +43,7 @@ const Hero = () => {
         ></img>
       </div>
 
-      <div className="text-center  section-small-screens py-10 section bg-topbg">
+      <div className="text-center section-small-screens py-10 section bg-topbg h-[100vh] md:h-[auto] pt-32 md:pt-[auto]">
         <div className="">
           <h1 className="xs:text-3xl md:text-5xl">
             Unforgettable stays. <br /> Unwind.
@@ -54,21 +54,6 @@ const Hero = () => {
             reimagine your expectations of comfort.
           </p>
         </div>
-
-        {/* <div className="w-[25%]">
-          <div className="flex justify-between border-b mb-3">
-            <p>Book a hotel Service</p>
-            <p>o</p>
-          </div>
-          <div className="flex justify-between border-b mb-3">
-            <p>Book a hotel Service</p>
-            <p className="text-primarylight">o</p>
-          </div>
-          <div className="flex justify-between border-b">
-            <p>Book a hotel Service</p>
-            <p>o</p>
-          </div>
-        </div> */}
       </div>
 
       <div className="w-[100%] left-0 mb-10">

@@ -5,10 +5,10 @@ import ScrollTop from '../components/ScrollTop'
 const Aboutpage = () => {
   return (
     <>
-      <div className="min-h-screen w-full text-black p-16">
+      <div className="min-h-screen w-full text-black p-5 md:p-16">
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">Who we are</h2>
-          <p className="text-xl">
+          <p className="md:text-xl">
             Primadas Investment Nigeria Limited was awarded a license from the
             Corporate Affairs Commission (CAC) in Abuja in 2006 with the aim of
             rendering services in Nigeria business environment. It later got its
@@ -25,7 +25,7 @@ const Aboutpage = () => {
 
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">VISION</h2>
-          <p className="text-xl">
+          <p className="md:text-xl">
             At Primadas Investment Nigeria Limited, Our Vision is to be one of
             the Nigeria most respected trustworthy and efficient in Contracts
             and Telecoms Services.
@@ -34,7 +34,7 @@ const Aboutpage = () => {
 
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">MISSION</h2>
-          <p className="text-xl">
+          <p className="md:text-xl">
             Our Mission is to be Nigeria's Premier Telecoms Dealer and
             Professional Contractor with reliability, trustworthy responsiveness
             and exemplary corporate customer excellence.
@@ -44,10 +44,11 @@ const Aboutpage = () => {
           <h2 className="text-5xl font-bold pb-5 text-primary">
             FROM CEO'S PEN
           </h2>
-          <p className="text-xl leading-loose">
-            <span className='text-primary'>Dear Esteemed Customers</span>, <br /> Business cannot grow
-            and attain its full course of establishment when value, trust and
-            friendship are not treasured. <br />
+          <p className="md:text-xl leading-loose">
+            <span className="text-primary">Dear Esteemed Customers</span>,{' '}
+            <br /> Business cannot grow and attain its full course of
+            establishment when value, trust and friendship are not treasured.{' '}
+            <br />
             We at Primadas Investment Nigeria Limited, we treasure those values
             and be in business in your own interest. <br />
             If there is anything we can use to serve you better please feel free
