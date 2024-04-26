@@ -43,7 +43,7 @@ const Hero = () => {
         ></img>
       </div>
 
-      <div className="text-center section-small-screens py-10 section bg-topbg h-[100vh] md:h-[auto] pt-32 md:pt-[auto]">
+      <div className="text-center section-small-screens py-10 section bg-topbg h-[100vh] md:h-[auto] pt-32 sm:pt-10">
         <div className="">
           <h1 className="xs:text-3xl md:text-5xl">
             Unforgettable stays. <br /> Unwind.

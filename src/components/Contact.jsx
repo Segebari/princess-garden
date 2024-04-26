@@ -9,9 +9,14 @@ const Contact = () => {
       >
         <h3 className="text-4xl text-secondary"> Get in Touch</h3>
         <p className="pt-3">Have questions? We're here to help.</p>
-        <button className="border mt-5 px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg">
-          <a href="tel:+2347034842501">Book Now</a>
-        </button>
+        <div className="flex gap-5">
+          <button className="border mt-5 px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg">
+            <a href="tel:+2347034842501">Book Now</a>
+          </button>
+          <button className="border mt-5 px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg">
+            <a href="mailto:ibruojas@yahoo.com">Email Us</a>
+          </button>
+        </div>
       </div>
     </>
   )

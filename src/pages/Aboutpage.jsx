@@ -40,7 +40,7 @@ const Aboutpage = () => {
             and exemplary corporate customer excellence.
           </p>
         </div>
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">
             FROM CEO'S PEN
           </h2>
@@ -66,7 +66,7 @@ const Aboutpage = () => {
               O.A.Ibru CEO
             </span>
           </p>
-        </div>
+        </div> */}
       </div>
       <Contact />
       <ScrollTop />
