@@ -1,4 +1,5 @@
 import React from 'react'
+import Add from '../assets/address.svg'
 
 const Contact = () => {
   return (
@@ -16,6 +17,10 @@ const Contact = () => {
           <button className="border mt-5 px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg">
             <a href="mailto:ibruojas@yahoo.com">Email Us</a>
           </button>
+        </div>
+        <div className="flex gap-2 pt-5">
+          <img src={Add} alt="Mouse" className="w-5"></img>
+          <p className='text-sm'>Block J, Plot 1d, Sparkinglight Estate, <br /> Ibafo, Ogun State.</p>
         </div>
       </div>
     </>
