@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <>
       <div
-        className="w-full bg-topbg py-20 flex flex-col items-center"
+        className="w-full bg-topbg py-20 flex flex-col items-center
+        "
         id="contact"
       >
         <h3 className="text-4xl text-secondary"> Get in Touch</h3>
@@ -18,9 +19,9 @@ const Contact = () => {
             <a href="mailto:ibruojas@yahoo.com">Email Us</a>
           </button>
         </div>
-        <div className="flex gap-2 pt-5">
+        <div className="flex gap-2 pt-7 items-center px-10 md:px-0">
           <img src={Add} alt="Mouse" className="w-5"></img>
-          <p className='text-sm'>Block J, Plot 1d, Sparkinglight Estate, <br /> Ibafo, Ogun State.</p>
+          <p className='text-sm'>Block J, Plot 1d, Sparkinglight Estate, Ibafo, Ogun State.</p>
         </div>
       </div>
     </>
