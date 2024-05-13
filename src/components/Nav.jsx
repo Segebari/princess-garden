@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Menu from './Menu'
 import { HashLink as Link } from 'react-router-hash-link'
+import logo from '../assets/logo.png'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,7 @@ const Nav = () => {
     <>
       <div className="w-auto section-small-screens h-auto flex lg:flex-row justify-between py-7 text-lg section bg-topbg">
         <Link to="/">
-          <div className="text font-bold">Logo</div>
+        <img src={logo} alt="logo" className='w-12' />
         </Link>
         <div
           className={`hidden  lg:flex lg:gap-10 lg:items-center xs:absolute lg:relative bg-topbg xs:h-[100vh] lg:h-[auto] xs:w-[100vw] lg:w-[auto] xs:text-center lg:text-left xs:left-0 lg:left-[auto] z-40 ${
