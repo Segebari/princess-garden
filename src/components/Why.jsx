@@ -62,7 +62,7 @@ const Why = () => {
             />
             <div className="md:absolute w-full md:top-20 h-full md:ml-5 xs:mt-5 md:mt-0 ">
               <div class="md:absolute box-shadow md:ml-32 bg-white top-0 flex gap-3 items-center justify-between h-5rem w-10rem rounded-lg text-black p-4 xs:mb-5 md:mb-0">
-                <div class="w-16 h-16 rounded-[50%] border border-secondary"></div>
+                
                 <div class="text-left">
                   <h5 class="text-lg font-bold">Mr. Ray</h5>
                   <p class="text-sm">
@@ -73,7 +73,7 @@ const Why = () => {
               </div>
 
               <div class="md:absolute box-shadow md:ml-5 bg-white md:top-52 flex gap-3 items-center justify-between h-5rem w-10rem rounded-lg text-black p-4 xs:mb-5 md:mb-0">
-                <div class="w-16 h-16 rounded-[50%] border border-secondary"></div>
+                
                 <div class="text-left">
                   <h5 class="text-lg font-bold">Mrs. Esther</h5>
                   <p class="text-sm">
@@ -84,7 +84,6 @@ const Why = () => {
               </div>
 
               <div class="md:absolute box-shadow md:ml-32 bg-white md:top-96 flex gap-3 items-center justify-between h-5rem w-10rem rounded-lg text-black p-4 xs:mb-5 md:mb-0">
-                <div class="w-16 h-16 rounded-[50%] border border-secondary"></div>
                 <div class="text-left">
                   <h5 class="text-lg font-bold">Mr. Chuks</h5>
                   <p class="text-sm">
