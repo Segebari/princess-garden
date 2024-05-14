@@ -21,7 +21,7 @@ const ScrollTopButton = () => {
   return (
     <>
     <button
-      className={`fixed flex items-center justify-center bottom-10 right-10 z-50 h-10 w-10 rounded-[50%] bg-secondary bg-opacity-70 text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary ${
+      className={`fixed flex items-center justify-center bottom-10 right-5 md:right-10 z-50 h-10 w-10 rounded-[50%] bg-secondary bg-opacity-70 text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary ${
         !isVisible && 'hidden'
       }`}
       onClick={scrollToTop}
