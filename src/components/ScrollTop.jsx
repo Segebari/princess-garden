@@ -19,6 +19,7 @@ const ScrollTopButton = () => {
   }
 
   return (
+    <>
     <button
       className={`fixed flex items-center justify-center bottom-10 right-10 z-50 h-10 w-10 rounded-[50%] bg-secondary bg-opacity-70 text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary ${
         !isVisible && 'hidden'
@@ -27,6 +28,7 @@ const ScrollTopButton = () => {
     >
       <img src={top} alt="top arrow icon" className="h-7" />
     </button>
+    </>
   )
 }
 

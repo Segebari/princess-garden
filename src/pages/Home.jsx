@@ -6,6 +6,7 @@ import Our from '../components/Our'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import ScrollTop from '../components/ScrollTop'
+import Whatsapp from '../components/Whatsapp'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <Contact />
       <ScrollTop />
+      <Whatsapp/>
     </>
   )
 }
