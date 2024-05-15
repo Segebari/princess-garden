@@ -9,35 +9,21 @@ const Aboutpage = () => {
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">Who we are</h2>
           <p className="md:text-xl">
-            Primadas Investment Nigeria Limited was awarded a license from the
-            Corporate Affairs Commission (CAC) in Abuja in 2006 with the aim of
-            rendering services in Nigeria business environment. It later got its
-            license from Nigeria Communication Commission (NCC) in 2012, to act
-            as a data channel partner to Telecommunication Company and also with
-            sales and installation of digital dishes. Other licenses obtained
-            include Mobile Money (Certified) Super Agent from various financial
-            institutions. Primadas Investment Nigeria Limited has also invested
-            in supermarkets, stores and retails outlets. The Headquarters is
-            situated in Lagos with Professional Managers for running the aims
-            and objectives of the Organization.
+          Princess Gardens isn't just a hotel; it's an experience. We are a haven of serenity nestled amidst Sparkinglight Estate, Ibafo, Ogun State.  Our commitment is to providing exceptional hospitality that caters to the discerning traveler, the high-powered professional, and families seeking a luxurious escape.
           </p>
         </div>
 
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">VISION</h2>
           <p className="md:text-xl">
-            At Primadas Investment Nigeria Limited, Our Vision is to be one of
-            the Nigeria most respected trustworthy and efficient in Contracts
-            and Telecoms Services.
+          Princess Gardens envisions itself as the pinnacle of Nigerian hospitality. We aim to set the benchmark for luxury, service, and guest satisfaction within the country. Through continuous innovation and unwavering dedication to excellence, we aspire to become a symbol of sophistication and tranquility, recognized not just nationally but internationally.
           </p>
         </div>
 
         <div className="mb-16">
           <h2 className="text-5xl font-bold pb-5 text-primary">MISSION</h2>
           <p className="md:text-xl">
-            Our Mission is to be Nigeria's Premier Telecoms Dealer and
-            Professional Contractor with reliability, trustworthy responsiveness
-            and exemplary corporate customer excellence.
+          Our mission is to be the premier hospitality destination in Nigeria. We strive to exceed expectations by providing unparalleled service, luxurious accommodations, and unforgettable experiences. We are dedicated to creating a space that fosters relaxation, rejuvenation, and productivity for every guest.
           </p>
         </div>
         {/* <div className="mb-16">
