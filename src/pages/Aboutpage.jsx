@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../components/Contact'
 import ScrollTop from '../components/ScrollTop'
+import Whatsapp from '../components/Whatsapp'
 
 const Aboutpage = () => {
   return (
@@ -56,6 +57,7 @@ const Aboutpage = () => {
       </div>
       <Contact />
       <ScrollTop />
+      <Whatsapp/>
     </>
   )
 }
