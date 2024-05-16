@@ -16,7 +16,7 @@ const Contact = () => {
             <a href="tel:+2347034842501">Book Now</a>
           </button>
           <button className="border mt-5 px-6 py-2 hover:bg-secondary hover:border-secondary hover:text-topbg">
-            <a href="mailto:segebarifred@gmail.com">Email Us</a>
+            <a href="mailto:ibruojas@yahoo.com">Email Us</a>
           </button>
         </div>
         <div className="flex gap-2 pt-7 items-center px-10 md:px-0">

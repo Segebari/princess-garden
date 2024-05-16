@@ -3,7 +3,7 @@ import imgi from '../assets/img1.png'
 import imgii from '../assets/img2.png'
 import imgiii from '../assets/img3.png'
 import imgiv from '../assets/img4.png'
-import imgv from '../assets/img5.png'
+import imgv from '../assets/meeting.png'
 
 const Our = () => {
   return (
