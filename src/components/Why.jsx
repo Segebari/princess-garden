@@ -77,8 +77,7 @@ const Why = () => {
                 <div class="text-left">
                   <h5 class="text-lg font-bold">Mrs. Esther</h5>
                   <p class="text-sm">
-                    Comfy beds and delicious breakfast. <br /> Perfect for
-                    relaxation.
+                   Quiet location, friendly staff. <br /> Slept like a dream!
                   </p>
                 </div>
               </div>
@@ -87,8 +86,7 @@ const Why = () => {
                 <div class="text-left">
                   <h5 class="text-lg font-bold">Mr. Chuks</h5>
                   <p class="text-sm">
-                    Comfy beds and delicious breakfast. <br /> Perfect for
-                    relaxation.
+                   Productive meetings, comfy lounge.  <br /> Ideal for business trips.
                   </p>
                 </div>
               </div>
